@@ -9,7 +9,8 @@ RUN apt-get update -qq && \
                        libpq-dev \
                        nodejs \
                        imagemagick \
-                       yarn
+                       yarn \
+                       sqlite3
 
 RUN mkdir /app
 ENV APP_ROOT /app
